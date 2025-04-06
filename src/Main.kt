@@ -9,4 +9,7 @@ fun main() {
 
     val secondWithdrawl = myAccount.withdraw(3000)
     println("is Withdraw success : $secondWithdrawl and balance after this transaction is ${myAccount.getBalance()}!")
+
+    myAccount.deposit(1000)
+    myAccount.getDetailedTransactions()
 }
